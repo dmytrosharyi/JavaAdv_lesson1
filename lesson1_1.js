@@ -6,11 +6,11 @@ const People = (function () {
     let cross;
 
     function init() {
-        casheDom();
+        cacheDom();
         bindEvent();
     }
 
-    function caсheDom() {
+    function cacheDom() {
         data = $('#userName');
         button = $('#addName');
         ul = $('#people');
